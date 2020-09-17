@@ -1,0 +1,63 @@
+body {
+    background: #F29598 url(../image/image\ 2.svg) no-repeat top left;
+}
+
+
+/* 헤더 디자인 */
+
+header {
+    display: flex;
+    justify-content: flex-start;
+    width: 1220px;
+    height: 30px;
+    margin-top: 45px;
+    margin-left: 50px;
+}
+
+
+/* 브랜드 로고 */
+
+.brand {
+    margin: 0;
+    padding-top: 7px;
+    padding-bottom: 7px;
+    flex-grow: 1;
+}
+
+.brand a {
+    display: block;
+}
+
+.brand img {
+    display: block;
+}
+
+
+/* 헤더 햄버거 버튼 */
+
+.is-open-menu {
+    background-color: rgba( 255, 255, 255, 0);
+    border: 0;
+}
+
+.is-open-menu .ir {
+    display: block;
+    background-image: url(../image/햄버거.svg);
+    width: 33px;
+    height: 30px;
+}
+
+
+/* 헤더 장바구니 버튼 */
+
+.is-shopping-cart {
+    background-color: rgba( 255, 255, 255, 0);
+    border: 0;
+}
+
+.is-shopping-cart .ir {
+    display: block;
+    background-image: url(../image/장바구니.svg);
+    width: 33px;
+    height: 30px;
+}
