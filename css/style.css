@@ -1,3 +1,8 @@
+html {
+    width: 1320px;
+    height: 740px;
+}
+
 body {
     background: #F29598 url(../image/image\ 2.svg) no-repeat top left;
 }
@@ -60,4 +65,25 @@ header {
     background-image: url(../image/장바구니.svg);
     width: 33px;
     height: 30px;
+}
+
+
+/* 메인 */
+
+main {
+    position: relative;
+    width: 1320px;
+    height: 710px;
+}
+
+
+/* 메인 제목 */
+
+h2 {
+    font-size: 100px;
+    color: #fff;
+    margin: 0;
+    position: absolute;
+    left: 50px;
+    bottom: 50px;
 }
