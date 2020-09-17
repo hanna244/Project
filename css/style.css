@@ -88,3 +88,21 @@ h2 {
     left: 50px;
     bottom: 50px;
 }
+
+
+/* 메인 버튼 */
+
+.is-main-button {
+    width: 169px;
+    height: 54px;
+    background-color: rgba( 255, 255, 255, 86%);
+    border: 0;
+    padding: 19px 49px;
+    position: relative;
+    left: 401px;
+    top: 628px;
+    border-radius: 0 84px 84px 84px;
+    color: #242CF8;
+    font-weight: bold;
+    font-size: 16px 49px;
+}
