@@ -1,0 +1,205 @@
+html {
+    overflow: hidden;
+    background: #f29598;
+    background: radial-gradient(#f19a9d, #ee6e72);
+}
+
+body {
+    height: 100vh;
+    margin: 0;
+}
+
+img {
+    vertical-align: middle;
+}
+
+figure {
+    /* margin: 0; */
+    background-color: beige;
+}
+
+
+
+::selection {
+  color: #fff;
+  background: #180202;
+}
+
+img::selection {
+  background: transparent;
+}
+
+:focus {
+  outline: none;
+  box-shadow: 0 0 0 6px rgba(63, 43, 250, 0.65);
+  border-radius: 4px;
+}
+
+
+/* 앱 헤더 --------------------------------------------------------------------- */
+
+
+.appHeader {
+  position: fixed;
+  top: 45px;
+  left: 50px;
+  right: 50px;
+
+  display: flex;
+  justify-content: space-between;
+}
+
+
+/* 브랜드 ---------------------------------------------------------------------- */
+
+
+.brand {
+  margin: 0;
+}
+
+.brand a {
+  padding-left: 10px;
+  padding-right: 10px;
+}
+
+
+/* 버튼 ----------------------------------------------------------------------- */
+
+
+.button {
+  opacity: 0.7;
+  cursor: pointer;
+  height: 30px;
+  width: 30px;
+  border: 0;
+  padding: 0;
+  background: transparent;
+}
+
+.button:hover,
+.button:focus {
+  opacity: 1;
+}
+
+.button-hamburger {
+  margin-right: 20px;
+  background: url("../images/icons/hamburger.svg") no-repeat;
+}
+.button-cart {
+  background: url("../images/icons/cart.svg") no-repeat;
+}
+
+
+/* 메인 ----------------------------------------------------------------------- */
+
+
+.slogan {
+  position: fixed;
+  left: 50px;
+  bottom: 50px;
+  width: 227px;
+  height: 255px;
+  margin: 0;
+  font: 100 100px/0.85 SpoqaHanSans, Sans-Serif;
+  color: #fff;
+}
+
+.callToAction {
+  user-select: none;
+  position: fixed;
+  left: 400px;
+  bottom: 60px;
+  font: 700 1rem/1 SpoqaHanSans, Sans-Serif;
+  text-decoration: none;
+  padding: 1.1875em 3.0625em; 19px 49px
+
+color: #242cf8;
+background: rgba(255, 255, 255, 0.86);
+border-radius: 0px 20px 20px 20px;
+transition: all 0.8s cubic-bezier(0.18, 0.89, 0.32, 1.27);
+
+}
+.callToAction:hover {
+    background: rgba(255, 255, 255, 1);
+    transform: translateY(-7px);
+    box-shadow: 0 16px 20px rgba(131, 41, 41, 0.555);
+}
+
+/* 카드 ----------------------------------------------------------------------- */
+
+.cards {
+  display: flex;
+  margin: 0;
+  padding-left: 0;
+  list-style: none;
+  position: fixed;
+  right: 0;
+  bottom: 60px;
+  transform: translateX(520px);
+  transition: all 0.6s cubic-bezier(0.46, 0.03, 0.52, 0.96);
+}
+
+.cards:hover {
+  transform: translateX(-50px);
+}
+
+.card {
+  width: 280px;
+  margin-right: 50px;
+  color: #e2999a;
+  transition: all 0.8s 0.1s cubic-bezier(0.08, 0.82, 0.17, 1);
+  transform-origin: center top;
+}
+
+.card:hover {
+  transform: translateY(-20px) scale(1.1);
+  box-shadow: 0 12px 20px rgba(131, 41, 41, 0.555);
+}
+
+.card:last-child {
+  margin-right: 0;
+}
+
+.card figure {
+  display: flex;
+  flex-direction: column;
+  background: #ffffff;
+}
+
+.card figcaption {
+  order: -1;
+  box-sizing: border-box;
+  padding: 52px 24px 15px;
+  min-height: 147px;
+}
+
+.cardTitle {
+  margin: 0 0 5px;
+  font-family: 700 32px/1 SpoqaHanSans;
+  color: #b43147;
+}
+
+.cardSummary {
+  margin: 0;
+  font-family: 400 15px/1.4375 SpoqaHanSans;
+  color: inherit;
+}
+
+.card a {
+  display: block;
+  text-decoration: none;
+  color: inherit;
+}
+
+/* 슈즈.걸 --------------------------------------------------------------------- */
+
+.shoesGirl {
+  position: absolute;
+  z-index: -1;
+  top: -140px;
+  left: 50%;
+  width: 2318px;
+  height: 999px;
+  transform: translateX(-50%);
+  transition: all 0.8s cubic-bezier(0.19, 1, 0.22, 1);
+}
