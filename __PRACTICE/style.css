@@ -1,153 +1,145 @@
 html {
-    width: 1320px;
-    height: 740px;
+  width: 132px;
+  height: 740px;
 }
 
 body {
-    background: #F29598 url(../image/image\ 2.svg) no-repeat top left;
-    font-family: 'Spoqa Han Sans', 'Sans-serif';
+  background: #f29598 url(../image/image\ 2.svg) no-repeat top left;
+  font-family: 'Spoqa Han Sans', 'Sans-serif';
 }
-
 
 /* 헤더 디자인 */
 
 header {
-    display: flex;
-    justify-content: flex-start;
-    width: 1220px;
-    height: 30px;
-    margin-top: 45px;
-    margin-left: 50px;
+  display: flex;
+  justify-content: flex-start;
+  width: 1220px;
+  height: 30px;
+  margin-top: 45px;
+  margin-left: 50px;
 }
-
 
 /* 브랜드 로고 */
 
 .brand {
-    margin: 0;
-    padding-top: 7px;
-    padding-bottom: 7px;
-    flex-grow: 1;
+  margin: 0;
+  padding-top: 7px;
+  padding-bottom: 7px;
+  flex-grow: 1;
 }
 
 .brand a {
-    display: block;
+  display: block;
 }
 
 .brand img {
-    display: block;
+  display: block;
 }
-
 
 /* 헤더 햄버거 버튼 */
 
 .is-open-menu {
-    background-color: rgba( 255, 255, 255, 0);
-    border: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
 }
 
 .is-open-menu .ir {
-    display: block;
-    background-image: url(../image/햄버거.svg);
-    width: 33px;
-    height: 30px;
+  display: block;
+  background-image: url(../image/햄버거.svg);
+  width: 33px;
+  height: 30px;
 }
-
 
 /* 헤더 장바구니 버튼 */
 
 .is-shopping-cart {
-    background-color: rgba( 255, 255, 255, 0);
-    border: 0;
+  background-color: rgba(255, 255, 255, 0);
+  border: 0;
 }
 
 .is-shopping-cart .ir {
-    display: block;
-    background-image: url(../image/장바구니.svg);
-    width: 33px;
-    height: 30px;
+  display: block;
+  background-image: url(../image/장바구니.svg);
+  width: 33px;
+  height: 30px;
 }
-
 
 /* 메인 */
 
 main {
-    position: relative;
-    width: 1320px;
-    height: 710px;
+  position: relative;
+  width: 1320px;
+  height: 710px;
 }
-
 
 /* 메인 제목 */
 
 h2 {
-    font-size: 100px;
-    color: #fff;
-    margin: 0;
-    position: absolute;
-    left: 50px;
-    bottom: 50px;
+  font-size: 100px;
+  color: #fff;
+  margin: 0;
+  position: absolute;
+  left: 50px;
+  bottom: 50px;
 }
-
 
 /* 메인 버튼 */
 
 .is-main-button {
-    width: 169px;
-    height: 54px;
-    background-color: rgba( 255, 255, 255, 86%);
-    border: 0;
-    padding: 19px 49px;
-    position: relative;
-    left: 401px;
-    top: 628px;
-    border-radius: 0 84px 84px 84px;
-    color: #242CF8;
-    font-weight: bold;
-    font-size: 16px 49px;
+  width: 169px;
+  height: 54px;
+  background-color: rgba(255, 255, 255, 86%);
+  border: 0;
+  padding: 19px 49px;
+  position: relative;
+  left: 401px;
+  top: 628px;
+  border-radius: 0 84px 84px 84px;
+  color: #242cf8;
+  font-weight: bold;
+  font-size: 16px 49px;
 }
-
 
 /* 메인 목록 */
 
 .main-box-group {
-    display: flex;
-    justify-content: space-between;
-    width: 937px;
-    height: 376px;
-    position: relative;
-    top: 304px;
-    left: 333px;
+  display: flex;
+  justify-content: space-between;
+  width: 937px;
+  height: 376px;
+  position: relative;
+  top: 304px;
+  left: 333px;
 }
 
 .main-box-group .box {
-    display: block;
-    width: 279px;
-    height: 376px;
+  display: block;
+  width: 279px;
+  height: 376px;
 }
 
 .box-text {
-    position: relative;
-    width: 279px;
-    height: 165px;
-    background-color: #fff;
-    color: #E2999A;
+  position: relative;
+  width: 279px;
+  height: 165px;
+  background-color: #fff;
+  color: #e2999a;
 }
 
 .main-box-group h3 {
-    position: relative;
-    margin: 0;
-    top: 52px;
-    left: 23px;
-    font-size: 24px;
+  position: relative;
+  margin: 0;
+  top: 52px;
+  left: 23px;
+  font-size: 24px;
 }
 
 .main-box-group p {
-    position: relative;
-    margin: 0;
-    top: 81px;
-    left: 24px;
-    width: 228px;
-    height: 69px;
-    font-size: 15px;
+  position: relative;
+  margin: 0;
+  top: 81px;
+  left: 24px;
+  width: 228px;
+  height: 69px;
+  font-size: 15px;
 }
